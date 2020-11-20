@@ -51,7 +51,7 @@ var tweets =[
     },
     {
         tweet: "tweet 9",
-        username: "",
+        username: "Lisa",
         age: 48,
         created_at: "11-13-2020"
     },
