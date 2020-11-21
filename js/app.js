@@ -51,7 +51,7 @@ var tweets =[
     },
     {
         tweet: "tweet 9",
-        username: "Lisa",
+        username: "Lisagi",
         age: 48,
         created_at: "11-13-2020"
     },
@@ -62,6 +62,10 @@ var tweets =[
         created_at: "05-31-2020"
     }
 ];
+function ageChecker(tweet) {
+    return tweet.age >= 18;
+}
+var overEighteent = Tweets.filter(ageChecker);
 
 for (var index = 0; index < tweets.length; index++) {
     console.log(tweets[index].tweet);
